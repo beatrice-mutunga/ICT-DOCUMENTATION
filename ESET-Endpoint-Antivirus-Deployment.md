@@ -14,7 +14,7 @@
 
 ## 1. Project Overview
 
-This document outlines the process of installing and centrally managing ESET Endpoint Antivirus across Wamae & Allen LLP office computers using the ESET PROTECT platform.
+This document outlines the process of installing and centrally managing ESET Endpoint Antivirus across the office computers using the ESET PROTECT platform.
 
 The objective is to ensure that company computers are protected against malware, viruses, ransomware and other security threats while allowing the ICT Department to monitor and manage endpoint protection from a central console.
 
@@ -36,9 +36,9 @@ The firm has an ESET PROTECT Entry subscription.
 
 | Item | Details |
 |---|---|
-| Organisation | Wamae & Allen LLP |
-| Customer ID | wam00016 |
-| Order Number | 758275 |
+| Organisation | ***|
+| Customer ID | **** |
+| Order Number | **** |
 | Subscription | ESET PROTECT Entry |
 | ESET PROTECT | 50 devices |
 | Endpoint & Server Security | 50 devices |
@@ -422,19 +422,7 @@ This document provides the approved technical procedure for implementing ESET en
 
 Actual deployment should be recorded as computers are installed and verified.
 
-| Activity | Status |
-|---|---|
-| ESET subscription acquired | Confirmed from licence details |
-| Licence validity | Valid until 14 March 2029 |
-| ESET PROTECT console access | To be verified |
-| Licence registration in console | To be verified |
-| Installer generation | Pending verification |
-| Pilot computer deployment | Pending |
-| Central agent communication | Pending verification |
-| Endpoint activation | Pending verification |
-| Office-wide rollout | Pending |
-| Final deployment verification | Pending |
+
 
 **Prepared by:** ICT Department  
-**Organisation:** Wamae & Allen LLP  
-**Document purpose:** Internal technical documentation and deployment reference.
+**Document purpose:** Technical documentation and deployment reference.

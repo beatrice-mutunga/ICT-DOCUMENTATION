@@ -1,17 +1,17 @@
-# Managing Outlook Email Forwarding Rules – I&M Bank Transaction Notifications
+# Managing Outlook Email Forwarding Rules – Bank Transaction Notifications
 
 ## 1. Overview
 
-This documentation covers the investigation and modification of an existing Microsoft Outlook email forwarding configuration used to distribute I&M Bank transaction notification emails to the firm's Accounts department and an additional recipient named Jackie.
+This documentation covers the investigation and modification of an existing Microsoft Outlook email forwarding configuration used to distribute Bank transaction notification emails to the firm's Accounts department and an additional recipient named ****.
 
-The original configuration had been established before I took over the task. The objective was to understand how the forwarding arrangement worked, identify where the recipients were configured, and remove Jackie without interrupting the automatic delivery of transaction notifications to the Accounts email address.
+The original configuration had been established before I took over the task. The objective was to understand how the forwarding arrangement worked, identify where the recipients were configured, and remove *** without interrupting the automatic delivery of transaction notifications to the Accounts email address.
 
 ### Objectives
 
 - Understand how automatic email forwarding works in Microsoft Outlook.
 - Identify the existing forwarding configuration.
-- Establish how I&M Bank transaction notifications are identified.
-- Remove Jackie from the forwarding arrangement.
+- Establish how Bank transaction notifications are identified.
+- Remove *** from the forwarding arrangement.
 - Retain the Accounts email address as a recipient.
 - Preserve the existing forwarding conditions.
 - Understand how to manage and troubleshoot similar configurations in future.
@@ -29,7 +29,7 @@ Inbox rules allow Outlook to automatically perform actions on incoming emails ba
 For example:
 
 **Condition:**
-- The incoming email is from I&M Bank.
+- The incoming email is from  x Bank.
 - The subject contains a specified transaction-related keyword.
 
 **Action:**
@@ -83,11 +83,11 @@ Using Outlook on the web allows mailbox settings to be inspected independently o
 
 ### Step 3: Identify the Relevant Rule
 
-Inspect the available rules and identify the one responsible for distributing I&M Bank transaction notifications.
+Inspect the available rules and identify the one responsible for distributing Bank transaction notifications.
 
 Look for rules containing references to:
 
-- I&M Bank.
+- X Bank.
 - Transaction notifications.
 - Bank alerts.
 - Accounts email address.
@@ -105,7 +105,7 @@ These determine which emails trigger the rule.
 
 Examples:
 
-- Sender is I&M Bank.
+- Sender is X Bank.
 - Subject contains a transaction notification keyword.
 - Message meets another specified condition.
 
@@ -125,23 +125,23 @@ Understanding these components is important because changing a condition could a
 
 ### Objective
 
-Remove Jackie from the existing I&M Bank transaction notification forwarding arrangement while retaining the Accounts email address.
+Remove *** from the existing Bank transaction notification forwarding arrangement while retaining the Accounts email address.
 
 ### Steps
 
 1. Open the relevant forwarding rule.
 2. Inspect the configured forwarding recipients.
-3. Identify Jackie's email address.
-4. Remove Jackie's address from the recipient list.
+3. Identify ***'s email address.
+4. Remove ***'s address from the recipient list.
 5. Confirm that the Accounts email address remains configured.
-6. Ensure the existing I&M Bank conditions remain unchanged.
+6. Ensure the existing Bank conditions remain unchanged.
 7. Save the modified rule.
 
 ### Important Precautions
 
 - Do not delete the entire rule.
 - Do not remove the Accounts email address.
-- Do not modify the I&M Bank sender or subject conditions unnecessarily.
+- Do not modify the Bank sender or subject conditions unnecessarily.
 - Do not disable general mailbox forwarding unless it is confirmed to be part of the unwanted arrangement.
 - Do not modify Exchange organisation-wide mail flow rules without understanding their impact.
 
@@ -157,8 +157,8 @@ After modifying the rule, verify that the configuration is working as intended.
 2. Confirm that the relevant rule is still enabled.
 3. Open the rule and inspect its forwarding recipients.
 4. Confirm that the Accounts email address is still present.
-5. Confirm that Jackie's address is no longer included.
-6. Obtain or wait for a legitimate I&M Bank transaction notification.
+5. Confirm that ***'s address is no longer included.
+6. Obtain or wait for a legitimate Bank transaction notification.
 7. Confirm that the notification reaches the intended Accounts mailbox.
 
 Where possible, check the original mailbox and the Accounts mailbox to establish that the notification was delivered successfully.
@@ -167,8 +167,8 @@ Do not use a live financial transaction merely to test email forwarding without 
 
 **Expected result:**
 
-- I&M Bank transaction notification emails continue to be distributed to Accounts.
-- Jackie is no longer included in the forwarding arrangement.
+- Bank transaction notification emails continue to be distributed to Accounts.
+- *** is no longer included in the forwarding arrangement.
 - The original forwarding conditions remain intact.
 
 ## 6. Troubleshooting
@@ -176,8 +176,8 @@ Do not use a live financial transaction merely to test email forwarding without 
 | Problem | Possible cause | Recommended action |
 |---|---|---|
 | Accounts stops receiving notifications | Forwarding rule was disabled or modified incorrectly | Inspect the rule and restore the correct recipient and conditions |
-| Jackie continues receiving notifications | Another forwarding mechanism may exist | Inspect mailbox forwarding settings and Exchange mail flow rules |
-| No I&M Bank notifications are forwarded | Rule conditions may not match incoming emails | Inspect sender and subject conditions |
+| *** continues receiving notifications | Another forwarding mechanism may exist | Inspect mailbox forwarding settings and Exchange mail flow rules |
+| No X Bank notifications are forwarded | Rule conditions may not match incoming emails | Inspect sender and subject conditions |
 | Rule cannot be edited | Permissions or organisation-level configuration | Consult the Microsoft 365 administrator |
 | Duplicate notifications are received | Multiple rules or forwarding mechanisms may be active | Inspect all relevant rules and forwarding settings |
 
@@ -211,9 +211,9 @@ The following practices should be observed:
 
 ## 9. Final Outcome
 
-The existing Outlook forwarding arrangement for I&M Bank transaction notifications was reviewed and updated.
+The existing Outlook forwarding arrangement for X Bank transaction notifications was reviewed and updated.
 
-The unwanted recipient, Jackie, was removed while retaining the Accounts email address.
+The unwanted recipient, ***, was removed while retaining the Accounts email address.
 
 The objective was to maintain the existing automated distribution of bank transaction notifications without disrupting the Accounts department's access to the emails.
 
@@ -246,9 +246,9 @@ Key lessons:
 |---|---|
 | System | Microsoft Outlook / Microsoft 365 |
 | Function | Automatic email forwarding |
-| Source | I&M Bank transaction notifications |
-| Original recipients | Accounts and Jackie |
-| Change implemented | Removed Jackie |
+| Source | X Bank transaction notifications |
+| Original recipients | Accounts and *** |
+| Change implemented | Removed *** |
 | Retained recipient | Accounts email address |
 | Configuration objective | Maintain automated transaction notification distribution |
 | Change type | Email rule modification |
